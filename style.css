@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+body {
+  
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  height: 158px;
+  background-image: url(files/nav_bar/nav_back.png); 
+  width: 100%;
+  z-index: 88;
+  position: fixed;
+}
+
+.logo {
+  width: 35%;
+	float: left;
+	line-height: 100px;
+}
+
+nav {
+	float: left;
+	line-height: 100px;
+}
+
+nav a {
+  display: inline-block;
+	text-decoration: none;
+	font-family: gentiumbasic;
+	font-size: 18px;
+  font-weight: bold;
+	color: #f0f1f1;
+  margin: 0px 30px;
+}
+
+
+.hover:hover {
+  display: inline-block;
+  height: 3px;
+  text-decoration: none;
+  width: auto;
+  background-image: url(files/details/hover.png);
+  color: #f0f1f1;
+  transition-duration: 1s;
+  
+}
+
+.hover:target {
+  display: inline-block;
+  height: 3px;
+  text-decoration: none;
+  width: auto;
+  background-image: url(files/details/hover.png);
+  color: #f0f1f1;
+  transition-duration: 1s;
+  cursor: pointer;
+  
+}
+
+
+
+
+.banner-area {
+	width: 105%;
+	height: 750px;
+	position: fixed;
+	background-image: url(files/pictures/banner.png);
+}
+
+.banner-area h2 {
+	padding-top: 250px;
+  padding-left: 20%; 
+  padding-right: 20%; 
+	font-size: 70px;
+	font-family: yesevaone;
+	text-transform: lowercase;
+	color: #f0f1f1;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgba(255, 255, 255, 0.199); 
+  color: rgb(255, 255, 255); 
+  border: 1px solid rgba(255, 255, 255, 0.801);
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: rgba(0, 0, 0, 0.699);
+  color: rgba(255, 255, 255, 0.808);
+  border: 1px solid rgba(0, 0, 0, 0.808);
+  transition-duration: 0.4s;
+}
+
+.about {
+	width: 103%;
+  top: 750px;
+  height: 710px;
+	position: relative;
+	background-image: url(files/content/cont_patern.png), url(files/content/cont_cover.png);
+  background-blend-mode: normal;
+}
