@@ -123,3 +123,11 @@ nav a {
 	background-image: url(files/content/cont_patern.png), url(files/content/cont_cover.png);
   background-blend-mode: normal;
 }
+ 
+.centras {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80;
+}
